@@ -1,6 +1,12 @@
 [package]
 name = "ktx"
-version = "0.1.0"
+version = "0.1.0-unstable"
+description = "Khronos texture file"
 authors = ["Mike Dilger <mike@optcomp.nz>"]
+readme = "README.md"
+repository = "https://github.com/mikedilger/ktx"
+license = "MIT OR Apache-2.0"
+keywords = [ "texture", "ktx" ]
 
 [dependencies]
+byteorder = "1.0"
